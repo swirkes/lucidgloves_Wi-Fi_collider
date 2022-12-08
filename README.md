@@ -36,12 +36,22 @@ all the parameters right.
   In the end, I printed about 4 days a week for 2 weeks. I tried not to print multiples until I had a good idea of the 
 quality so I didn't have to throw away a lot of scraps.
 
-
-
 ## Assembly
   The biggest obstacle to progress in this project was waiting for the
 components. I built out one spring loaded pot and tested some of the 
-[firmware code](https://github.com/swirkes/lucidgloves_Wi-Fi_collider/tree/main/sketches/servoHapticsTestArduinoUNO) on an Arduino.
+[firmware code](https://github.com/swirkes/lucidgloves_Wi-Fi_collider/tree/main/sketches/servoHapticsTestArduinoUNO) on an Arduino. In retrospect, my time would have been better spent with SuperCollider.
+
+<img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/velcro_strap.JPG" alt="velcro" width="350"/> <img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/wrapping_rings.JPG" alt="wrapping_rings" width="350"/>
+
+The wiring and threading of the glove were labor intensive. With repetetive tasks, you usually improve over time. However, since I was only making 5 of
+everything, I was done as soon as I started to get proficient. In any case, once I had all the necessary parts, the build was pretty straight-forward.
+
+I veered away from the lucidgloves project pretty heavily at this point when I began wiring the glove. Instead of using the ESP32, I decided to run the 
+output straight into bela's analog inputs. This allowed me to make music directly when time was of the essence. 
+
+<img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/close_up_bela.JPG" alt="bela" width="350"/> <img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/working_from_home.JPG" alt="work_from_home" width="350"/>
+
+
 
 
  
