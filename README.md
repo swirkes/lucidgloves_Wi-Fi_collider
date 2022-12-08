@@ -43,15 +43,32 @@ components. I built out one spring loaded pot and tested some of the
 
 <img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/velcro_strap.JPG" alt="velcro" width="350"/> <img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/wrapping_rings.JPG" alt="wrapping_rings" width="350"/>
 
-The wiring and threading of the glove were labor intensive. With repetetive tasks, you usually improve over time. However, since I was only making 5 of
+  The wiring and threading of the glove were labor intensive. With repetetive tasks, you usually improve over time. However, since I was only making 5 of
 everything, I was done as soon as I started to get proficient. In any case, once I had all the necessary parts, the build was pretty straight-forward.
 
-I veered away from the lucidgloves project pretty heavily at this point when I began wiring the glove. Instead of using the ESP32, I decided to run the 
+  I veered away from the lucidgloves project pretty heavily at this point when I began wiring the glove. Instead of using the ESP32, I decided to run the 
 output straight into bela's analog inputs. This allowed me to make music directly when time was of the essence. 
 
 <img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/close_up_bela.JPG" alt="bela" width="350"/> <img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/working_from_home.JPG" alt="work_from_home" width="350"/>
 
+## SuperCollider
+  The SuperCollider [code](https://github.com/swirkes/lucidgloves_Wi-Fi_collider/tree/main/SuperCollider%20Code) instantiates 3 different FM synths and assigns each one to a melodic sequence. The speed of each sequence is controlled 
+consecutively by the index, middle, and ring fingers. The thumb controls the starting frequency for all of the synths (pulling your thumb forward 
+cause the pitch to rise and vice versa). Finally, the pinky controls the modulation frequency used acroos all 3 synths.
 
 
+<img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/Export3.png" alt="hand" width="350"/> <img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/Export4.png" alt="hand" width="350"/>
 
- 
+## Demonstration
+  The glove is in good shape at the time of this writing and nothing broke during the demo! Although I didn't implement a lot of what I set out to, I got
+a good start on a project that interests me quite a lot. This is the first mechanical project I've done, so there was a bit of a learning curve for me 
+to understand the design but I am glad I took on the challenge. I really hope to continue development soon and often.
+
+<img src="https://github.com/swirkes/lucidgloves_Wi-Fi_collider/blob/main/pics/gloveOnTable.JPG" alt="bela" width="550"/>
+
+## Video
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9f3AgjMMQUo" target="_blank">
+ <img src="http://img.youtube.com/vi/9f3AgjMMQUo/mqdefault.jpg" alt="Watch the video" width="480" height="360" border="10" />
+</a>
+
